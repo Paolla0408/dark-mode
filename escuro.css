@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: #e4e4e4;
+}
+
+header {
+    background: #2d3250;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffd369;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+.receita {
+    background: #2b2b3d;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.receita img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+h2 {
+    color: #ffd369;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #2d3250;
+    text-align: center;
+    padding: 15px;
+}
